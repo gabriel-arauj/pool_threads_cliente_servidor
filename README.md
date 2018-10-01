@@ -14,12 +14,12 @@
 		<li> Cached thread pool –tamanho ilimitado</li>
 	</ol>
 </p>
-<p>
+<p>	<pre>
 	Exemplo de execução:
 	Execute um dos modelos de servidor
 		java DateServerSingle
 	Execute o cliente com a operação matemática desejada
 		Java DateClient "*:8:4"
-
+	</pre>
 	Obs: devido à velocidade da execução foi adicionado um sleep na thread para que se possa observar as várias threads.
 </p>
